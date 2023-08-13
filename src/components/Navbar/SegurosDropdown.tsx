@@ -69,7 +69,7 @@ export default function SegurosDropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full items-center justify-center rounded-md   font-semibold text-secondary hover:bg-gray-50">
+        <Menu.Button className="inline-flex w-full items-center justify-center rounded-md   font-semibold text-secondary">
           Seguros
           <RxCaretDown className="-mr-1 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
@@ -83,7 +83,7 @@ export default function SegurosDropdown() {
         leave="transition ease-in duration-75"
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95">
-        <Menu.Items className="absolute right-0 z-10 mt-2 w-80 origin-top-right rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute right-0 z-10 mt-2 w-80 origin-top-right rounded-md shadow-lg bg-bgColor ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-2 flex">
             <div>
               {firstHalftInsurances.map((insurance, index) => (

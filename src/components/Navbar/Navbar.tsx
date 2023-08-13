@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SegurosDropdown from './SegurosDropdown';
 import styles from './styles.module.css';
 import clsx from 'clsx';
+import SaibaMais from '../common/SaibaMais';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
       <nav className="w-full">
         <div className="flex items-center justify-between font-Title font-bold text-base">
           <img
-            className="w-28"
+            className="w-20 xsm:w-28"
             src="./sicure-seguros-logo.png"
             alt="Sicure Corretora de Seguros Logo"
           />
@@ -22,11 +23,7 @@ const Navbar = () => {
             <a href="./">Home</a>
             <SegurosDropdown />
             <a href="./">Contato</a>
-            <a
-              href="./learnMore"
-              className="text-bgColor shadow-sm rounded-md bg-primary px-5 py-[0.35rem]">
-              Saiba Mais
-            </a>
+            <SaibaMais />
           </div>
           <button
             id="menu-btn"
