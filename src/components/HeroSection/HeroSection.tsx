@@ -10,7 +10,7 @@ const HeroSection = () => {
           <div className="font-Title text-4xl xsm:text-6xl">
             Seguros fazem parte da qualidade de vida
           </div>
-          <div className="mt-3 xsm:mt-4 text-sm xsm:text-lg pr-20 2xl:pr-12 2xl:mt-6">
+          <div className="mt-3 xsm:mt-4 text-sm xsm:text-lg pr-7 xsm:pr-20 2xl:pr-12 2xl:mt-6">
             A Sicure garante a sua tranquilidade, com soluções de seguros
             personalizadas para proteger o que mais importa para você e sua
             família.{' '}
@@ -21,11 +21,11 @@ const HeroSection = () => {
                 <BiCheckCircle className="text-lg" />
                 <span>Melhores opções de seguradoras</span>
               </li>
-              <li className="flex items-center gap-2 mt-1 2xl:mt-3">
+              <li className="flex items-center gap-2 2xl:mt-3">
                 <BiCheckCircle className="text-lg" />
                 <span>Experiência e agentes qualificados</span>
               </li>
-              <li className="flex items-center gap-2 mt-1 2xl:mt-3">
+              <li className="flex items-center gap-2 2xl:mt-3">
                 <BiCheckCircle className="text-lg" />
                 <span>Atendimento ágil e de qualidade</span>
               </li>
