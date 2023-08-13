@@ -66,6 +66,15 @@ const firstHalftInsurances = insurances.slice(0, 6);
 const secondHalfInsurances = insurances.slice(6, 12);
 
 export default function SegurosDropdown() {
+  const scrollToSection = () => {
+    const section = document.getElementById('segurosSection');
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
@@ -89,15 +98,17 @@ export default function SegurosDropdown() {
               {firstHalftInsurances.map((insurance, index) => (
                 <Menu.Item key={index}>
                   {({ active }) => (
-                    <a
-                      href="#"
+                    // <a href="insurance.path"
+                    <div
                       className={classNames(
                         active ? ' text-primary' : 'text-secondary',
-                        'flex gap-2 px-4 py-2 text-sm items-center'
-                      )}>
+                        'flex gap-2 px-4 py-2 text-sm items-center cursor-pointer'
+                      )}
+                      onClick={scrollToSection}>
                       {insurance.icon}
                       {insurance.title}
-                    </a>
+                      {/*</a> */}
+                    </div>
                   )}
                 </Menu.Item>
               ))}
@@ -107,15 +118,17 @@ export default function SegurosDropdown() {
               {secondHalfInsurances.map((insurance, index) => (
                 <Menu.Item key={index}>
                   {({ active }) => (
-                    <a
-                      href="#"
+                    // <a href="insurance.path"
+                    <div
                       className={classNames(
                         active ? ' text-primary' : 'text-secondary',
-                        'flex gap-2 px-4 py-2 text-sm items-center'
-                      )}>
+                        'flex gap-2 px-4 py-2 text-sm items-center cursor-pointer'
+                      )}
+                      onClick={scrollToSection}>
                       {insurance.icon}
                       {insurance.title}
-                    </a>
+                      {/*</a> */}
+                    </div>
                   )}
                 </Menu.Item>
               ))}

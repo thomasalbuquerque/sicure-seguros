@@ -2,13 +2,22 @@ import React, { useState } from 'react';
 import SegurosDropdown from './SegurosDropdown';
 import styles from './styles.module.css';
 import clsx from 'clsx';
-import SaibaMais from '../common/SaibaMais';
+import FilledButton from '../common/FilledButton';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleToggleMenuOpen = () => {
     setMobileMenuOpen(!mobileMenuOpen);
+  };
+  const scrollToSection = () => {
+    const section = document.getElementById('segurosSection');
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth',
+      });
+    }
   };
   return (
     <>
@@ -22,8 +31,10 @@ const Navbar = () => {
           <div className="hidden sm:flex gap-10 items-center text-secondary">
             <a href="./">Home</a>
             <SegurosDropdown />
-            <a href="./">Contato</a>
-            <SaibaMais />
+            <a href="https://api.whatsapp.com/send?phone=5512996713530">
+              Contato
+            </a>
+            <FilledButton text={'Saiba Mais'} />
           </div>
           <button
             id="menu-btn"
@@ -41,12 +52,12 @@ const Navbar = () => {
           <div
             id="menu"
             className={clsx(
-              'absolute flex-col items-center py-8 space-y-6 font-Title font-bold bg-bgColorDarker text-secondary w-28 sm:self-center right-6 drop-shadow-md',
+              'absolute flex-col items-center py-8 space-y-6 font-Title font-bold bg-bgColorDarker text-secondary w-28 sm:self-center right-6 drop-shadow-md rounded-md',
               mobileMenuOpen && 'flex',
               !mobileMenuOpen && 'hidden'
             )}>
             <a href="/">Home</a>
-            <a href="#segurosSection">Seguros</a>
+            <div onClick={scrollToSection}>Seguros</div>
             <a href="https://api.whatsapp.com/send?phone=5512996713530">
               Contato
             </a>

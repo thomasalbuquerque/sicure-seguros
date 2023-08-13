@@ -1,13 +1,13 @@
 import React from 'react';
 import { BiCheckCircle } from 'react-icons/bi';
-import SaibaMais from '../common/SaibaMais';
+import FilledButton from '../common/FilledButton';
 
 const HeroSection = () => {
   return (
     <>
       <section className="flex flex-col xsm:flex-row font-Text justify-center text-secondary mt-7 2xl:px-28 2xl:py-20">
         <div className="lg:w-3/5 2xl:w-[810px]">
-          <div className="font-Title text-3xl xsm:text-6xl">
+          <div className="font-Title text-4xl xsm:text-6xl">
             Seguros fazem parte da qualidade de vida
           </div>
           <div className="mt-3 xsm:mt-4 text-sm xsm:text-lg pr-20 2xl:pr-12 2xl:mt-6">
@@ -32,7 +32,7 @@ const HeroSection = () => {
             </ul>
           </div>
           <div className="mt-5 xsm:mt-6 2xl:mt-9">
-            <SaibaMais />
+            <FilledButton text={'Saiba Mais'} />
           </div>
         </div>
         <div className="lg:w-2/5 hidden lg:flex justify-end items-center">
