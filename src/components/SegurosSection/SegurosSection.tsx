@@ -92,8 +92,8 @@ const SegurosSection = () => {
           Soluções de Seguros
         </div>
         <div className="flex flex-wrap px-16 justify-between">
-          {items.map((item) => (
-            <SegItem item={item} />
+          {items.map((item, index) => (
+            <SegItem item={item} key={index} />
           ))}
         </div>
       </div>

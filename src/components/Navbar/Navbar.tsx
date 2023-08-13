@@ -31,7 +31,9 @@ const Navbar = () => {
           <div className="hidden sm:flex gap-10 items-center text-secondary">
             <a href="./">Home</a>
             <SegurosDropdown />
-            <a href="https://api.whatsapp.com/send?phone=5512996713530">
+            <a
+              href="https://api.whatsapp.com/send?phone=5512996713530"
+              target="_blank">
               Contato
             </a>
             <FilledButton text={'Saiba Mais'} />
