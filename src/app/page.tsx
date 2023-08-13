@@ -16,7 +16,7 @@ import { LuBoxes } from 'react-icons/lu';
 import { LiaHorseHeadSolid } from 'react-icons/lia';
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-24 py-10">
+    <main className="flex min-h-screen flex-col items-center justify-between px-10 py-8 md:px-24 md:py-10">
       <Navbar />
       <div>
         <FaTruckFront className="text-primary" />
