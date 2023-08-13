@@ -10,10 +10,9 @@ const HeroSection = () => {
           <div className="font-Title text-4xl xsm:text-6xl">
             Seguros fazem parte da qualidade de vida
           </div>
-          <div className="mt-3 xsm:mt-4 text-sm xsm:text-lg pr-7 xsm:pr-20 2xl:pr-12 2xl:mt-6">
-            A Sicure garante a sua tranquilidade, com soluções de seguros
-            personalizadas para proteger o que mais importa para você e sua
-            família.{' '}
+          <div className="mt-3 xsm:mt-4 text-sm xsm:text-lg pr-9 xsm:pr-20 2xl:pr-12 2xl:mt-6">
+            A Sicure garante a sua tranquilidade, com seguros personalizados
+            para proteger o que mais importa para você e sua família.
           </div>
           <div className="mt-3 xsm:mt-4 text-sm xsm:text-lg 2xl:mt-6">
             <ul>
