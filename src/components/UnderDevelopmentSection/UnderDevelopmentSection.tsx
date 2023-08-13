@@ -18,7 +18,7 @@ const UnderDevelopmentSection = () => {
         </div>
         <div className="mt-8">
           <a
-            className="flex justify-center items-center h-8 xsm:h-9 bg-primary text-bgColor text-sm w-24 xsm:w-28 xsm:text-base font-bold shadow-sm rounded-md font-Title cursor-pointer"
+            className="flex justify-center items-center h-8 xsm:h-9 bg-primary text-bgColor text-sm w-24 xsm:w-28 xsm:text-base font-bold shadow-sm rounded-md font-Title cursor-pointer hover:bg-primaryHover duration-100"
             href="https://api.whatsapp.com/send?phone=5512996713530"
             target="_blank">
             Whatsapp

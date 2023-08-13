@@ -14,7 +14,7 @@ const FilledButton = ({ text }: props) => {
   };
   return (
     <>
-      <div className="flex justify-center items-center h-7 xsm:h-9 bg-primary text-bgColor text-xs w-20 xsm:w-28 xsm:text-base font-bold shadow-sm rounded-md font-Title cursor-pointer">
+      <div className="flex justify-center items-center h-7 xsm:h-9 bg-primary text-bgColor text-xs w-20 xsm:w-28 xsm:text-base font-bold shadow-sm rounded-md font-Title cursor-pointer hover:bg-primaryHover duration-100">
         <div onClick={scrollToSection}>{text}</div>
       </div>
     </>
