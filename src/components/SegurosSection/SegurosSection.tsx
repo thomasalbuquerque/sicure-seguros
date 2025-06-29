@@ -26,8 +26,8 @@ const items = [
     title: 'Residencial',
     icon: <IoHome className='w-8 h-auto' />,
     description: 'Proteja seu lar com contra danos, incêndios e desastres naturais.',
-    url: 'https://api.whatsapp.com/send?phone=5512996713530&text=Olá! Gostaria de fazer uma cotação de seguro residencial.',
-    isExternal: true,
+    url: '/seguro-residencial',
+    isExternal: false,
   },
   {
     title: 'Empresa',
