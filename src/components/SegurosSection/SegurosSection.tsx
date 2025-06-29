@@ -39,9 +39,9 @@ const items = [
   {
     title: 'Vida',
     icon: <FaHeartCirclePlus className='w-8 h-auto' />,
-    description: 'Seguros de vida individual e para colaboradores empresariais (global).',
-    url: 'https://api.whatsapp.com/send?phone=5512996713530&text=Olá! Gostaria de fazer uma cotação de seguro de vida.',
-    isExternal: true,
+    description: 'Seguros de vida individual e para colaboradores empresariais.',
+    url: '/seguro-de-vida',
+    isExternal: false,
   },
   {
     title: 'Aeronáutico (Casco)',
