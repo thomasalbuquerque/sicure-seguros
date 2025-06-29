@@ -47,8 +47,8 @@ const items = [
     title: 'Aeronáutico (Casco)',
     icon: <BsAirplaneFill className='w-8 h-auto' />,
     description: 'Assegure o avião contra danos no casco e nos motores.',
-    url: 'https://api.whatsapp.com/send?phone=5512996713530&text=Olá! Gostaria de fazer uma cotação de seguro aeronáutico (casco).',
-    isExternal: true,
+    url: '/seguro-aeronautico-casco',
+    isExternal: false,
   },
   {
     title: 'Aeronáutico (R.E.T.A.)',
