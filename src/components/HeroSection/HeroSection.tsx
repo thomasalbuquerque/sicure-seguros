@@ -20,7 +20,7 @@ const HeroSection = () => {
               </li>
               <li className='flex items-center gap-2 2xl:mt-3'>
                 <BiCheckCircle className='text-lg' />
-                <span>Experiência e agentes qualificados</span>
+                <span>15 anos de experiência no mercado</span>
               </li>
               <li className='flex items-center gap-2 2xl:mt-3'>
                 <BiCheckCircle className='text-lg' />
