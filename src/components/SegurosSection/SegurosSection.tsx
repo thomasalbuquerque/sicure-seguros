@@ -54,8 +54,8 @@ const items = [
     title: 'Aeronáutico (R.E.T.A.)',
     icon: <FaPlaneDeparture className='w-8 h-auto' />,
     description: 'Assegure contra danos a todos à bordo, bagagens e pessoas no solo.',
-    url: 'https://api.whatsapp.com/send?phone=5512996713530&text=Olá! Gostaria de fazer uma cotação de seguro aeronáutico (R.E.T.A.).',
-    isExternal: true,
+    url: '/seguro-aeronautico-reta',
+    isExternal: false,
   },
   {
     title: 'Acidentes',
