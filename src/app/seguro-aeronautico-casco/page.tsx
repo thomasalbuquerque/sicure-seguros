@@ -41,8 +41,8 @@ export default function SeguroAeronauticoCasco() {
               afetar a estrutura física da aeronave, como acidentes, colisões, incêndios, furtos, entre outros.
             </p>
             <p className='text-lg leading-relaxed'>
-              O termo "casco" refere-se à fuselagem, asas, motores e outros componentes físicos da aeronave, garantindo proteção financeira contra prejuízos
-              significativos que possam comprometer o investimento e as operações.
+              O termo &quot;casco&quot; refere-se à fuselagem, asas, motores e outros componentes físicos da aeronave, garantindo proteção financeira contra
+              prejuízos significativos que possam comprometer o investimento e as operações.
             </p>
           </div>
         </div>
