@@ -33,8 +33,8 @@ const items = [
     title: 'Empresa',
     icon: <MdBusinessCenter className='w-8 h-auto' />,
     description: 'Mantenha seu negócio seguro com nosso plano empresarial.',
-    url: 'https://api.whatsapp.com/send?phone=5512996713530&text=Olá! Gostaria de fazer uma cotação de seguro empresarial.',
-    isExternal: true,
+    url: '/seguro-empresarial',
+    isExternal: false,
   },
   {
     title: 'Vida',
