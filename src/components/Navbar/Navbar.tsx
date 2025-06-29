@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import SegurosDropdown from './SegurosDropdown';
 import styles from './styles.module.css';
 import clsx from 'clsx';
@@ -24,7 +25,16 @@ const Navbar = () => {
     <>
       <nav className='w-full'>
         <div className='flex items-center justify-between font-Title font-bold text-base'>
-          <Image className='w-20 xsm:w-28' src='/sicure-seguros-logo.png' alt='Sicure Corretora de Seguros Logo' width={112} height={80} priority />
+          <Link href='/'>
+            <Image
+              className='w-20 xsm:w-28 cursor-pointer'
+              src='/sicure-seguros-logo.png'
+              alt='Sicure Corretora de Seguros Logo'
+              width={112}
+              height={80}
+              priority
+            />
+          </Link>
           <div className='hidden sm:flex gap-10 items-center text-secondary'>
             <a href='./'>Home</a>
             <SegurosDropdown />
