@@ -30,7 +30,7 @@ const items = [
     isExternal: false,
   },
   {
-    title: 'Empresa',
+    title: 'Empresarial',
     icon: <MdBusinessCenter className='w-8 h-auto' />,
     description: 'Mantenha seu negócio seguro com nosso plano empresarial.',
     url: '/seguro-empresarial',
